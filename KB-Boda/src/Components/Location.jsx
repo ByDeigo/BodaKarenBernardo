@@ -9,7 +9,7 @@ export default function Location() {
             </div>
             <div className="text-center flex flex-col items-center gap-6 py-4 px-8 box-border z-20">
                 <p className="text-lg sm:text-xl md:text-2xl">Av. Insurgentes 68, 54602 San Mateo Xoloc, Méx.</p>
-                <img src=".\src\images\vecteezy_flower-floral_36630366.svg" className="opacity-30 left-0 absolute" />
+                <img src="\images\vecteezy_flower-floral_36630366.svg" className="opacity-30 left-0 absolute" />
 
                 <a
                     target="_blank"
@@ -19,9 +19,9 @@ export default function Location() {
                     Ver ubicación
                 </a>
                 <img
-                    src=".\src\images\Compromiso.jpg"
+                    src="\images\Compromiso.jpg"
                     className="w-full max-w-[400px] z-10 shadow-xl blur-[1px] opacity-90 brightness-95" />
-                <img src=".\src\images\vecteezy_flower-floral_36630366.svg" className="opacity-30 right-0 absolute rotate-y-180 hidden sm:block" />
+                <img src="\images\vecteezy_flower-floral_36630366.svg" className="opacity-30 right-0 absolute rotate-y-180 hidden sm:block" />
             </div>
         </section>
     );
