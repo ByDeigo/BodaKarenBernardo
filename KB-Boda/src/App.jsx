@@ -25,7 +25,7 @@ function App() {
 
         <img
           src="/images/Pareja.jpg"
-          className="md:w-1/2 max-w-[400px] w-[300px] shadow-lg"
+          className="lg:w-1/2 max-w-[400px] w-[300px] shadow-lg"
         />
 
         {/* Otra imagen con 'absolute' */}
