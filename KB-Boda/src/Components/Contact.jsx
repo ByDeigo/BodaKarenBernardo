@@ -32,14 +32,17 @@ export default function Contact() {
                         Contactar novio
                     </button>
                 </a>
+
                 <img
                     src="\images\vecteezy_flower-exotic_36648068.svg"
-                    className="-z-10 opacity-45 absolute top-[150px] w-[100px] md:w-[200px] left-[-20px]  md:left-[-80px] rotate-y-180"
+                    className="-z-10 opacity-45 absolute top-[150px] w-[100px] md:w-[200px] left-[-20px]  md:left-[-80px] rotate-y-180 max-w-full max-h-screen object-contain"
                 />
+
                 <img
                     src="\images\vecteezy_flower-exotic_36648068.svg"
-                    className="-z-10 opacity-45 absolute w-[100px] md:w-[200px]  right-[-20px] top-[230px] md:right-[-80px]"
+                    className="-z-10 opacity-45 absolute w-[100px] md:w-[200px]  right-[-20px] top-[230px] md:right-[-80px] max-w-full max-h-screen object-contain"
                 />
+
                 <div className="flex flex-col justify-center items-center gap-2.5">
                     <p className="text-2xl sm:text-3xl">Vestimenta</p>
                     <img
@@ -49,6 +52,7 @@ export default function Contact() {
                     <p className="text-2xl sm:text-3xl">Formal</p>
                 </div>
             </section>
+
             <picture className="w-full flex-col flex gap-4 sm:flex-row justify-center items-center">
                 <img src="\images\CompromisoIMG2.jpg" className="w-1/2 max-w-[300px]" />
                 <img
@@ -56,15 +60,17 @@ export default function Contact() {
                     className="w-1/2 max-w-[300px]"
                 />
             </picture>
+
             <img
                 src="\images\vecteezy_swirl-flower_36639908.svg"
-                className="absolute left-[-30px] bottom-[-20px] w-[100px] lg:w-[200px] -z-10 opacity-45"
+                className="absolute left-[-30px] bottom-[-20px] w-[100px] lg:w-[200px] -z-10 opacity-45 max-w-full max-h-screen object-contain"
             />
             <p className="text-2xl sm:text-3xl md:text-4xl">Gracias por ser parte de nuestro gran día</p>
             <p className="tangerine-regular text-8xl  mt-10 md:mt-0">¡Te esperamos!</p>
+
             <img
                 src="\images\vecteezy_swirl-flower_36639908.svg"
-                className="absolute right-[-30px] bottom-[-150px] w-[100px] lg:w-[200px] rotate-y-180 -z-10 opacity-45"
+                className="absolute right-[-30px] bottom-[-150px] w-[100px] lg:w-[200px] rotate-y-180 -z-10 opacity-45 max-w-full max-h-screen object-contain"
             />
         </div>
     );

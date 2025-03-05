@@ -6,18 +6,34 @@
     font-style: normal;
 }
 
+body {
+    overflow-x: hidden;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 400;
+    font-style: italic;
+    /* Evita el scroll horizontal */
+}
+
+.main-container {
+    position: relative;
+    /* Para las imágenes con absolute */
+}
+
+/* Asegurarse de que las imágenes posicionadas con absolute no se desborden */
+img.absolute-img {
+    max-width: 100%;
+    /* Limita el tamaño máximo */
+    max-height: 100vh;
+    /* Limita la altura máxima a la altura de la pantalla */
+    object-fit: contain;
+}
+
+
 .bodoni-moda-sc {
     font-family: "Bodoni Moda SC", serif;
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
-}
-
-body {
-    font-family: "Cormorant Garamond", serif;
-    font-weight: 400;
-    font-style: italic;
-    overflow-x: hidden;
 }
 
 .lora {

@@ -1,10 +1,14 @@
 export default function Present() {
     return (
         <div className="w-full flex flex-col justify-center items-center mb-4 gap-2.5 p-2 box-border relative">
-            <img src="\images\vecteezy_botanic-illustration_36647509.svg"
-                className="absolute w-[80px] right-[-30px] lg:right-[-30px] md:w-[120px]  bottom-[180px] rotate-y-180 -z-10 " />
-            <img src="\images\vecteezy_botanic-illustration_36647509.svg"
-                className="absolute left-[-20px] lg:left-[-60px] bottom-[-20px] w-[80px] md:w-[100px] lg:w-[200px]" />
+            <img
+                src="\images\vecteezy_botanic-illustration_36647509.svg"
+                className="absolute w-[80px] right-[-30px] lg:right-[-30px] md:w-[120px] bottom-[180px] rotate-y-180 -z-10 max-w-full max-h-screen object-contain"
+            />
+            <img
+                src="\images\vecteezy_botanic-illustration_36647509.svg"
+                className="absolute left-[-20px] lg:left-[-60px] bottom-[-20px] w-[80px] md:w-[100px] lg:w-[200px] max-w-full max-h-screen object-contain"
+            />
             <header className="flex flex-col w-full max-w-[600px] text-center gap-2">
                 <div className="flex items-center justify-center">
                     <span className="border-t-2 border-[#E8D28A] flex-1 mx-2"></span>
@@ -13,7 +17,11 @@ export default function Present() {
                 </div>
                 <div className="flex items-center flex-col gap-2.5">
                     <p className="text-2xl sm:text-3xl">Nuestro regalo</p>
-                    <img src="\images\Gift.png" alt="Imagen de un regalo" className="w-[80px] sm:w-[80px] md:w-[100px]" />
+                    <img
+                        src="\images\Gift.png"
+                        alt="Imagen de un regalo"
+                        className="w-[80px] sm:w-[80px] md:w-[100px]"
+                    />
                     <p className="text-base sm:text-lg md:text-xl lora">
                         Tu presencia es el mejor regalo que podemos recibir, pero si prefieres hacernos un obsequio, te ofrecemos esta opción.
                     </p>
