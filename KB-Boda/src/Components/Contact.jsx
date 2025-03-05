@@ -9,7 +9,7 @@ export default function Contact() {
             <p className="text-2xl sm:text-3xl md:text-4xl">Agradecemos que confirmes tu asistencia lo antes</p>
             <section className="flex flex-col">
                 <a
-                    href="https://mesaderegalos.liverpool.com.mx/eventodebusqueda"
+                    href="https://wa.me/5215567733688"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-full max-w-[300px] mx-auto"
@@ -17,11 +17,11 @@ export default function Contact() {
                     <button
                         className="bodoni-moda-sc w-full tracking-widest bg-white border-2 my-2.5 rounded-lg text-black py-2 px-4 z-20 hover:cursor-pointer inline-block text-center hover:bg-[#E6B6A6] transition-colors duration-300"
                     >
-                        Contactar novia
+                        Contactar a la novia
                     </button>
                 </a>
                 <a
-                    href="https://mesaderegalos.liverpool.com.mx/eventodebusqueda"
+                    href="https://wa.me/5215618986743"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-full max-w-[300px] mx-auto"
