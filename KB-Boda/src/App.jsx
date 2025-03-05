@@ -27,8 +27,6 @@ function App() {
           src="/images/Pareja.jpg"
           className="lg:w-1/2 max-w-[400px] w-[300px] shadow-lg"
         />
-
-        {/* Otra imagen con 'absolute' */}
         <img
           src="/images/vecteezy_botanic-illustration_36647509.svg"
           className="absolute absolute-img w-[160px] md:w-[200px] lg:w-[20vw] rotate-y-180 right-[-80px] sm:right-0 translate-x-1/4 top-30 -z-10 clip-path-inset opacity-45"

@@ -22,8 +22,8 @@ export default function Location() {
                 </a>
 
                 <img
-                    src="\images\Compromiso.jpg"
-                    className="w-full max-w-[400px] z-10 shadow-xl blur-[1px] opacity-90 brightness-95"
+                    src="images\CompromisoIMG2.jpg"
+                    className="w-full max-w-[400px] z-10 shadow-xl  opacity-90 brightness-95"
                 />
 
                 <img

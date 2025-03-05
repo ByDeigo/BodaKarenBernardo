@@ -53,13 +53,13 @@ export default function Contact() {
                 </div>
             </section>
 
-            <picture className="w-full flex-col flex gap-4 sm:flex-row justify-center items-center">
-                <img src="\images\CompromisoIMG2.jpg" className="w-1/2 max-w-[300px]" />
+            <div className="w-full flex-col flex gap-4 sm:flex-row justify-center items-center sm:h-[300px] h-auto">
+                <img src="images\Compromiso.jpg" className="h-full w-1/2 max-w-[300px] object-cover" />
                 <img
                     src="\images\ParejaIMG2.jpg"
-                    className="w-1/2 max-w-[300px]"
+                    className="w-1/2 max-w-[300px] h-full object-cover"
                 />
-            </picture>
+            </div>
 
             <img
                 src="\images\vecteezy_swirl-flower_36639908.svg"
