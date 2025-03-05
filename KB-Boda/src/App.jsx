@@ -15,15 +15,13 @@ function App() {
         <div className="w-1/2 max-w-[300px] h-full box-border ">
           <img
             src="/images/Logo_de_Moda_con_Iniciales_Caligráfico_Elegante_Rosa_y_Negro_1_-removebg-preview.png"
-            className="object-cover rounded-md"
+            className="object-cover rounded-md lg:w-1/2"
           />
           <p className="text-base sm:text-lg md:text-xl text-center mb-3.5 ">
             "Pero, además de todo esto, vístanse de amor, porque es un lazo de unión perfecto.":Colosenses 3:14
           </p>
           <p className="text-lg sm:text-xl md:text-2xl text-center">Nuestra boda</p>
         </div>
-
-        {/* Imagen sin 'absolute' */}
 
         <img
           src="/images/Pareja.jpg"
