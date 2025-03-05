@@ -18,7 +18,7 @@ function App() {
             className="object-cover rounded-md lg:w-[300px] "
           />
           <p className="text-base sm:text-lg md:text-xl text-center mb-3.5 ">
-            "Pero, además de todo esto, vístanse de amor, porque es un lazo de unión perfecto.":Colosenses 3:14
+            "Pero, además de todo esto, vístanse de amor, porque es un lazo de unión perfecto." Colosenses 3:14
           </p>
           <p className="text-lg sm:text-xl md:text-2xl text-center">Nuestra boda</p>
         </div>
