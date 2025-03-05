@@ -4,7 +4,6 @@ export default function Date() {
             <p className="text-2xl sm:text-base md:text-2xl text-center ">
                 Nosotros
             </p>
-
             <img
                 src="\images\vecteezy_flower-and-foliage_36642398.svg"
                 className="opacity-30 left-[-2rem] md:left-[-10rem] absolute size-44 hidden md:block lg:size-96 max-w-full max-h-screen object-contain"
@@ -18,7 +17,6 @@ export default function Date() {
             </div>
 
             <p className="text-2xl text-center p-1.5">Tenemos el honor de invitarte a nuestra boda.</p>
-
             <img
                 src="\images\vecteezy_flower-and-foliage_36642398.svg"
                 className="opacity-30 right-[-2rem] md:right-[-10rem] absolute size-44 hidden md:block lg:size-96 max-w-full max-h-screen object-contain"
