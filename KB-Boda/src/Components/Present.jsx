@@ -22,7 +22,7 @@ export default function Present() {
                         alt="Imagen de un regalo"
                         className="w-[80px] sm:w-[80px] md:w-[100px]"
                     />
-                    <p className="text-base sm:text-lg md:text-xl lora">
+                    <p className="text-base sm:text-lg md:text-xl p-2 box-border lora">
                         Tu presencia es el mejor regalo que podemos recibir, pero si prefieres hacernos un obsequio, te ofrecemos esta opción.
                     </p>
                     <p className="text-lg sm:text-xl md:text-2xl">Mesa de regalo <span className="text-[#E6B6A6]">(Liverpool)</span></p>

@@ -6,7 +6,7 @@ export default function Contact() {
                 <p className="text-3xl sm:text-4xl md:text-5xl text-[#E8D28A]">Confirmar asistencia</p>
                 <span className="border-t-2 border-[#E8D28A] flex-1 mx-2"></span>
             </div>
-            <p className="text-2xl sm:text-3xl md:text-4xl">Agradecemos que confirmes tu asistencia lo antes</p>
+            <p className="text-2xl sm:text-3xl md:text-4xl">Agradecemos que confirmes tu asistencia lo antes posible.</p>
             <section className="flex flex-col">
                 <a
                     href="https://wa.me/5215567733688"
@@ -65,7 +65,7 @@ export default function Contact() {
                 src="\images\vecteezy_swirl-flower_36639908.svg"
                 className="absolute left-[-30px] bottom-[-20px] w-[100px] lg:w-[200px] -z-10 opacity-45 max-w-full max-h-screen object-contain"
             />
-            <p className="text-2xl sm:text-3xl md:text-4xl">Gracias por ser parte de nuestro gran día</p>
+            <p className="text-2xl sm:text-3xl md:text-4xl">Gracias por ser parte de nuestro gran día.</p>
             <p className="tangerine-regular text-8xl  mt-10 md:mt-0">¡Te esperamos!</p>
 
             <img

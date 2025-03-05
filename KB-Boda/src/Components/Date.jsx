@@ -18,7 +18,7 @@ export default function Date() {
                 <p className="text-4xl sm:text-5xl md:text-6xl col-start-2 col-end-3 sm:col-start-3 sm:col-end-3 row-start-3">Bernardo</p>
             </div>
 
-            <p className="text-2xl text-center p-1.5">Tenemos el honor de invitarte a nuestra boda</p>
+            <p className="text-2xl text-center p-1.5">Tenemos el honor de invitarte a nuestra boda.</p>
 
             {/* Segunda imagen con 'absolute' ajustada */}
             <img
