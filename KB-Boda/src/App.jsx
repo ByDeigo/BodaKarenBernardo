@@ -8,7 +8,7 @@ function App() {
     <div className="flex flex-col gap-2">
       <img
         src="/images/vecteezy_botanic-illustration_36647509.svg"
-        className="absolute absolute-img w-[120px] mx-auto md:w-[150px] opacity-45 -left-12 top-30 object-cover"
+        className="absolute absolute-img w-[120px] mx-auto md:1/2 opacity-45 -left-12 top-30 object-cover"
       />
 
       <main className="box-border w-full flex-wrap flex justify-center items-center sm:flex-row gap-2 sm:gap-2.5 relative p-4 overflow-hidden min-h-[100vh] ">
