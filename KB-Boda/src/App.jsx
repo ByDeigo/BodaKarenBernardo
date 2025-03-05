@@ -15,7 +15,7 @@ function App() {
         <div className="w-1/2 max-w-[300px] h-full box-border ">
           <img
             src="/images/Logo_de_Moda_con_Iniciales_Caligráfico_Elegante_Rosa_y_Negro_1_-removebg-preview.png"
-            className="object-cover rounded-md min-w-[200px]"
+            className="object-cover rounded-md min-w-[300px]"
           />
           <p className="text-base sm:text-lg md:text-xl text-center mb-3.5 ">
             "Pero, además de todo esto, vístanse de amor, porque es un lazo de unión perfecto.":Colosenses 3:14
@@ -25,7 +25,7 @@ function App() {
 
         <img
           src="/images/Pareja.jpg"
-          className="w-1/2 max-w-[300px] shadow-lg min-w-[200px]"
+          className="md:w-1/2 max-w-[400px] w-[300px] shadow-lg"
         />
 
         {/* Otra imagen con 'absolute' */}
