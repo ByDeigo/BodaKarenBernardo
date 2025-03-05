@@ -29,7 +29,7 @@ export default function Contact() {
                     <button
                         className="bodoni-moda-sc w-full tracking-widest bg-white border-2 my-2.5 rounded-lg text-black py-2 px-4 z-20 hover:cursor-pointer inline-block text-center hover:bg-[#E6B6A6] transition-colors duration-300"
                     >
-                        Contactar novio
+                        Contactar al novio
                     </button>
                 </a>
 
