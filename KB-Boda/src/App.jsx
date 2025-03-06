@@ -33,7 +33,7 @@ function App() {
           className="absolute absolute-img w-[160px] md:w-[200px] lg:w-[20vw] rotate-y-180 right-[-80px] sm:right-0 translate-x-1/4 top-30 -z-10 clip-path-inset opacity-45"
         />
       </main>
-      <div className="w-full overflow-x-hidden">
+      <div className="w-full overflow-hidden">
         <Date />
         <Location />
         <Present />
