@@ -1,6 +1,6 @@
 export default function Contact() {
     return (
-        <div className="w-full flex items-center justify-center flex-col gap-6 mb-6 text-center relative overflow-x h-full ">
+        <div className="w-full flex items-center justify-center flex-col gap-6 mb-6 text-center relative ">
             <div className="flex w-full max-w-[600px] items-center justify-center">
                 <span className="border-t-2 border-[#E8D28A] flex-1 mx-2"></span>
                 <p className="text-3xl sm:text-4xl md:text-5xl text-[#E8D28A]">Confirmar asistencia</p>
