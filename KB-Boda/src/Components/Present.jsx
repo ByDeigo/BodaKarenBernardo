@@ -1,6 +1,6 @@
 export default function Present() {
     return (
-        <div className="w-full flex flex-col justify-center items-center mb-4 gap-2.5 p-2 box-border relative overflow-x-hidden">
+        <div className="w-full flex flex-col justify-center items-center mb-4 gap-2.5 p-2 box-border relative overflow-x-hidden h-full">
             <img
                 src="\images\vecteezy_botanic-illustration_36647509.svg"
                 className="absolute w-[80px] right-[-30px] lg:right-[-30px] md:w-[120px] bottom-[180px] rotate-y-180 -z-10 max-w-full max-h-screen object-contain"

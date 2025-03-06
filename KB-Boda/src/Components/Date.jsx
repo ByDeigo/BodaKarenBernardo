@@ -1,6 +1,6 @@
 export default function Date() {
     return (
-        <section className="flex flex-col items-center justify-center box-border overflow-x-hidden">
+        <section className="flex flex-col items-center justify-center box-border overflow-x-hidden h-full">
             <p className="text-3xl md:text-4xl text-center ">
                 Nosotros
             </p>
