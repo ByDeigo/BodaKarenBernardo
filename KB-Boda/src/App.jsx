@@ -5,7 +5,7 @@ import Contact from "./Components/Contact";
 
 function App() {
   return (
-    <div className="flex flex-col gap-2 overflow-x-hidden">
+    <div className="flex flex-col gap-2 ">
       <img
         src="/images/vecteezy_botanic-illustration_36647509.svg"
         className="absolute absolute-img w-[120px] md:w-[150px] opacity-45 -left-12 top-30 object-cover"
@@ -33,11 +33,12 @@ function App() {
           className="absolute absolute-img w-[160px] md:w-[200px] lg:w-[20vw] rotate-y-180 right-[-80px] sm:right-0 translate-x-1/4 top-30 -z-10 clip-path-inset opacity-45"
         />
       </main>
-
-      <Date />
-      <Location />
-      <Present />
-      <Contact />
+      <div className="w-full overflow-x-hidden">
+        <Date />
+        <Location />
+        <Present />
+        <Contact />
+      </div>
     </div>
   );
 }
