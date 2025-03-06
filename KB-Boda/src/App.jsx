@@ -11,7 +11,7 @@ function App() {
         className="absolute absolute-img w-[120px] md:w-[150px] opacity-45 -left-12 top-30 object-cover"
       />
 
-      <main className="box-border w-full flex-wrap flex justify-center items-center sm:flex-row gap-2 sm:gap-2.5 relative p-4 overflow-hidden min-h-[100vh] ">
+      <main className="box-border w-full flex-wrap flex justify-center items-center sm:flex-row gap-2 sm:gap-2.5 overflow-x-hidden relative p-4 min-h-[100vh] ">
         <div className="w-1/2 flex flex-col max-w-[300px] h-full box-border justify-center items-center gap-1.5 ">
           <img
             src="/images/Logo_de_Moda_con_Iniciales_Caligráfico_Elegante_Rosa_y_Negro_1_-removebg-preview.png"
