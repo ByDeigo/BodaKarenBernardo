@@ -66,7 +66,7 @@ export default function Contact() {
                 className="absolute left-[-30px] bottom-[-20px] w-[100px] lg:w-[200px] -z-10 opacity-15 max-w-full max-h-screen object-contain invert"
             />
             <p className="text-2xl sm:text-3xl md:text-4xl">Gracias por ser parte de nuestro gran día.</p>
-            <p className="tangerine-regular text-8xl mt-10 md:mt-0 text-[#d8b434]">¡Te esperamos!</p>
+            <p className="tangerine-regular text-8xl mt-5 md:mt-0 text-[#d8b434]">¡Te esperamos!</p>
 
             <img
                 src="\images\vecteezy_swirl-flower_36639908.svg"
