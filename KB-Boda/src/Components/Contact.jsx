@@ -1,6 +1,6 @@
 export default function Contact() {
     return (
-        <div className="w-full flex items-center justify-center flex-col gap-6 mb-6 text-center relative pb-5 ">
+        <div className="w-full flex items-center justify-center flex-col gap-6 mb-6 text-center relative ">
             <div className="flex w-full max-w-[600px] items-center justify-center">
                 <span className="border-t-2 border-[#E8D28A] flex-1 mx-2"></span>
                 <p className="text-3xl sm:text-4xl md:text-5xl text-[#d8b434]">Confirmar asistencia</p>
@@ -66,7 +66,7 @@ export default function Contact() {
                 className="absolute left-[-30px] bottom-[-20px] w-[100px] lg:w-[200px] -z-10 opacity-15 max-w-full max-h-screen object-contain invert"
             />
             <p className="text-2xl sm:text-3xl md:text-4xl">Gracias por ser parte de nuestro gran día.</p>
-            <p className="tangerine-regular text-8xl mt-10 md:mt-0 text-[#F2C59D]">¡Te esperamos!</p>
+            <p className="tangerine-regular text-8xl mt-10 md:mt-0 text-[#d8b434]">¡Te esperamos!</p>
 
             <img
                 src="\images\vecteezy_swirl-flower_36639908.svg"
