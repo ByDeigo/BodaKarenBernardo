@@ -3,7 +3,7 @@ export default function Location() {
         <section className="w-full flex flex-col items-center box-border mt-8 ">
             <div className="text-center flex flex-col gap-2.5">
                 <p className="text-3xl sm:text-3xl md:text-4xl text-[#D88D77] font-bold">Celebración</p>
-                <p className="text-3xl sm:text-2xl md:text-3xl text-[#8DB9D1]">5:00 pm</p>
+                <p className="text-3xl sm:text-2xl md:text-3xl text-[#D88D77]">5:00 pm</p>
                 <p className="text-lg sm:text-xl md:text-2xl">Salón Gala Tepotzotlan</p>
             </div>
             <div className="text-center flex flex-col items-center gap-6 py-4 px-8 box-border z-20">

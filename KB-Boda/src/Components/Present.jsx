@@ -26,7 +26,7 @@ export default function Present() {
                         Tu presencia es el mejor regalo que podemos recibir, pero si prefieres hacernos un obsequio, te ofrecemos esta opción.
                     </p>
                     <p className="text-lg sm:text-xl md:text-2xl">Mesa de regalo <span className="text-[#D88D77]">(Liverpool)</span></p>
-                    <p className="text-lg sm:text-xl md:text-2xl">Código de mesa: <span className="text-[#8DB9D1] font-serif">51624631</span></p>
+                    <p className="text-lg sm:text-xl md:text-2xl">Código de mesa: <span className="text-[#D88D77] font-serif">51624631</span></p>
                 </div>
             </header>
             <a
