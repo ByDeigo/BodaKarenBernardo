@@ -6,7 +6,7 @@ export default function Date() {
             </p>
             <img
                 src="\images\vecteezy_flower-and-foliage_36642398.svg"
-                className="opacity-30 left-[-2rem] md:left-[-10rem] absolute size-44 hidden md:block lg:size-96 max-w-full max-h-screen object-contain invert"
+                className="opacity-15 left-[-2rem] md:left-[-10rem] absolute size-44 hidden md:block lg:size-96 max-w-full max-h-screen object-contain invert"
             />
 
             <div className="grid grid-cols-[1fr_40px_1fr] grid-rows-3 justify-items-center w-[80%] max-w-[500px] p-5 box-border relative">
@@ -19,7 +19,7 @@ export default function Date() {
             <p className="text-2xl text-center p-1.5">Tenemos el honor de invitarte a nuestra boda.</p>
             <img
                 src="\images\vecteezy_flower-and-foliage_36642398.svg"
-                className="opacity-30 right-[-2rem] md:right-[-10rem] absolute size-44 hidden md:block lg:size-96 max-w-full max-h-screen object-contain invert"
+                className="opacity-15 right-[-2rem] md:right-[-10rem] top-[800px] absolute size-44 hidden md:block lg:size-96 max-w-full max-h-screen object-contain invert"
             />
 
             <div className="grid grid-cols-[1fr_1fr_1fr] grid-rows-3 place-items-center text-lg sm:text-xl md:text-2xl box-border gap-2">
