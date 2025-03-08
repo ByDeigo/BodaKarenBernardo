@@ -68,6 +68,18 @@ export default function Contact() {
             <p className="text-2xl sm:text-3xl md:text-4xl">Gracias por ser parte de nuestro gran día.</p>
             <p className="tangerine-regular text-8xl  text-[#d8b434]">¡Te esperamos!</p>
 
+            <a
+                href="\images\Docs\NuestraBoda-Boleto.pdf"
+                download={true}
+                rel="noopener noreferrer"
+                className="w-full max-w-[300px] mx-auto"
+            >
+                <button
+                    className="bodoni-moda-sc w-full tracking-widest bg-white border-2 my-2.5 rounded-lg text-black py-2 px-4 z-20 hover:cursor-pointer inline-block text-center hover:bg-[#E6B6A6] transition-colors duration-300"
+                >
+                    Descargar boleto
+                </button>
+            </a>
             <img
                 src="\images\vecteezy_swirl-flower_36639908.svg"
                 className="absolute right-[-30px] bottom-[-150px] w-[100px] lg:w-[200px] rotate-y-180 -z-10 opacity-15 max-w-full max-h-screen object-contain invert"
