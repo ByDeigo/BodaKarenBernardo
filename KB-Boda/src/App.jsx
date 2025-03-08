@@ -8,16 +8,16 @@ function App() {
     <div className="flex flex-col gap-2   overflow-hidden">
       <img
         src="/images/vecteezy_botanic-illustration_36647509.svg"
-        className="absolute absolute-img w-[120px] md:w-[150px] opacity-45 -left-12 top-30 object-cover"
+        className="absolute absolute-img w-[120px] md:w-[150px] opacity-45 -left-12 top-30 object-cover invert"
       />
 
       <main className="box-border w-full flex-wrap flex justify-center items-center sm:flex-row gap-2 sm:gap-2.5 relative p-4 min-h-[100vh] ">
         <div className="w-1/2 flex flex-col max-w-[300px] h-full box-border justify-center items-center gap-1.5 ">
           <img
             src="/images/Logo_de_Moda_con_Iniciales_Caligráfico_Elegante_Rosa_y_Negro_1_-removebg-preview.png"
-            className="object-cover rounded-md min-w-[250px] sm:w-[300px] "
+            className="object-cover rounded-md min-w-[250px] sm:w-[300px] invert"
           />
-          <p className="text-base sm:text-lg md:text-xl text-center mb-3.5 ">
+          <p className="text-base sm:text-lg md:text-xl text-center mb-3.5">
             "Pero, además de todo esto, vístanse de amor, porque es un lazo de unión perfecto." Colosenses 3:14
           </p>
           <p className="text-lg sm:text-xl md:text-2xl text-center">Nuestra boda</p>
@@ -30,7 +30,7 @@ function App() {
 
         <img
           src="/images/vecteezy_botanic-illustration_36647509.svg"
-          className="absolute absolute-img w-[160px] md:w-[200px] lg:w-[20vw] rotate-y-180 right-[-80px] sm:right-0 translate-x-1/4 top-30 -z-10 clip-path-inset opacity-45"
+          className="absolute absolute-img w-[160px] md:w-[200px] lg:w-[20vw] rotate-y-180 right-[-80px] sm:right-0 translate-x-1/4 top-30 -z-10 clip-path-inset opacity-45 invert"
         />
       </main>
       <div className="w-full overflow-hidden">

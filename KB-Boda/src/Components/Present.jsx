@@ -3,16 +3,16 @@ export default function Present() {
         <div className="w-full flex flex-col justify-center items-center mb-4 gap-2.5 p-2 box-border relative ">
             <img
                 src="\images\vecteezy_botanic-illustration_36647509.svg"
-                className="absolute w-[80px] right-[-30px] lg:right-[-30px] md:w-[120px] bottom-[180px] rotate-y-180 -z-10 max-w-full max-h-screen object-contain"
+                className="absolute w-[80px] right-[-30px] lg:right-[-30px] md:w-[120px] bottom-[180px] rotate-y-180 -z-10 max-w-full max-h-screen object-contain invert"
             />
             <img
                 src="\images\vecteezy_botanic-illustration_36647509.svg"
-                className="absolute left-[-20px] lg:left-[-60px] bottom-[-20px] w-[80px] md:w-[100px] lg:w-[200px] max-w-full max-h-screen object-contain"
+                className="absolute left-[-20px] lg:left-[-60px] bottom-[-20px] w-[80px] md:w-[100px] lg:w-[200px] max-w-full max-h-screen object-contain invert"
             />
             <header className="flex flex-col w-full max-w-[600px] text-center gap-2">
                 <div className="flex items-center justify-center">
                     <span className="border-t-2 border-[#E8D28A] flex-1 mx-2"></span>
-                    <p className="text-3xl sm:text-4xl md:text-5xl text-[#E8D28A]">Detalles</p>
+                    <p className="text-3xl sm:text-4xl md:text-5xl text-[#d8b434]">Detalles</p>
                     <span className="border-t-2 border-[#E8D28A] flex-1 mx-2"></span>
                 </div>
                 <div className="flex items-center flex-col gap-2.5">
@@ -25,8 +25,8 @@ export default function Present() {
                     <p className="text-base sm:text-lg md:text-xl p-2 box-border lora">
                         Tu presencia es el mejor regalo que podemos recibir, pero si prefieres hacernos un obsequio, te ofrecemos esta opción.
                     </p>
-                    <p className="text-lg sm:text-xl md:text-2xl">Mesa de regalo <span className="text-[#E6B6A6]">(Liverpool)</span></p>
-                    <p className="text-lg sm:text-xl md:text-2xl">Código de mesa: <span className="text-[#B7D0D9] font-serif">51624631</span></p>
+                    <p className="text-lg sm:text-xl md:text-2xl">Mesa de regalo <span className="text-[#D88D77]">(Liverpool)</span></p>
+                    <p className="text-lg sm:text-xl md:text-2xl">Código de mesa: <span className="text-[#8DB9D1] font-serif">51624631</span></p>
                 </div>
             </header>
             <a

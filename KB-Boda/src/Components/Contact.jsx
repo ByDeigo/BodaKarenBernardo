@@ -3,7 +3,7 @@ export default function Contact() {
         <div className="w-full flex items-center justify-center flex-col gap-6 mb-6 text-center relative ">
             <div className="flex w-full max-w-[600px] items-center justify-center">
                 <span className="border-t-2 border-[#E8D28A] flex-1 mx-2"></span>
-                <p className="text-3xl sm:text-4xl md:text-5xl text-[#E8D28A]">Confirmar asistencia</p>
+                <p className="text-3xl sm:text-4xl md:text-5xl text-[#d8b434]">Confirmar asistencia</p>
                 <span className="border-t-2 border-[#E8D28A] flex-1 mx-2"></span>
             </div>
             <p className="text-2xl sm:text-3xl md:text-4xl">Agradecemos que confirmes tu asistencia lo antes posible.</p>
@@ -35,19 +35,19 @@ export default function Contact() {
 
                 <img
                     src="\images\vecteezy_flower-exotic_36648068.svg"
-                    className="-z-10 opacity-45 absolute top-[150px] w-[100px] md:w-[200px] left-[-20px]  md:left-[-80px] rotate-y-180 max-w-full max-h-screen object-contain"
+                    className="-z-10 opacity-45 absolute top-[150px] w-[100px] md:w-[200px] left-[-20px] md:left-[-80px] rotate-y-180 max-w-full max-h-screen object-contain invert"
                 />
 
                 <img
                     src="\images\vecteezy_flower-exotic_36648068.svg"
-                    className="-z-10 opacity-45 absolute w-[100px] md:w-[200px]  right-[-20px] top-[230px] md:right-[-80px] max-w-full max-h-screen object-contain"
+                    className="-z-10 opacity-45 absolute w-[100px] md:w-[200px] right-[-20px] top-[230px] md:right-[-80px] max-w-full max-h-screen object-contain invert"
                 />
 
                 <div className="flex flex-col justify-center items-center gap-2.5">
                     <p className="text-2xl sm:text-3xl">Vestimenta</p>
                     <img
                         src="\images\DressCodeImg-removebg-preview.png"
-                        className="invert w-[100px]"
+                        className=" w-[100px]"
                     />
                     <p className="text-2xl sm:text-3xl">Formal</p>
                 </div>
@@ -63,14 +63,14 @@ export default function Contact() {
 
             <img
                 src="\images\vecteezy_swirl-flower_36639908.svg"
-                className="absolute left-[-30px] bottom-[-20px] w-[100px] lg:w-[200px] -z-10 opacity-45 max-w-full max-h-screen object-contain"
+                className="absolute left-[-30px] bottom-[-20px] w-[100px] lg:w-[200px] -z-10 opacity-45 max-w-full max-h-screen object-contain invert"
             />
             <p className="text-2xl sm:text-3xl md:text-4xl">Gracias por ser parte de nuestro gran día.</p>
-            <p className="tangerine-regular text-8xl  mt-10 md:mt-0">¡Te esperamos!</p>
+            <p className="tangerine-regular text-8xl mt-10 md:mt-0 text-[#F2C59D]">¡Te esperamos!</p>
 
             <img
                 src="\images\vecteezy_swirl-flower_36639908.svg"
-                className="absolute right-[-30px] bottom-[-150px] w-[100px] lg:w-[200px] rotate-y-180 -z-10 opacity-45 max-w-full max-h-screen object-contain"
+                className="absolute right-[-30px] bottom-[-150px] w-[100px] lg:w-[200px] rotate-y-180 -z-10 opacity-45 max-w-full max-h-screen object-contain invert"
             />
         </div>
     );
