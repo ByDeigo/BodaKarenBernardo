@@ -46,6 +46,7 @@ function App() {
             loop
             autoplay
             muted
+            controls
           ></audio>
 
         </div>
