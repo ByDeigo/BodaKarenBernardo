@@ -2,10 +2,28 @@ import Present from "./Components/Present";
 import Date from "./Components/Date";
 import Location from "./Components/Location";
 import Contact from "./Components/Contact";
+import { useEffect, useRef } from "react";
 
 function App() {
+  const musicRef = useRef(null)
+  useEffect(() => {
+    function handlePlay() {
+      if (musicRef.current.paused) {
+        musicRef.current.play();
+        musicRef.current.muted = false;
+      }
+      // Desvincula el evento después de que se haya activado una vez
+      window.removeEventListener("click", handlePlay);
+    }
+
+    // Agrega el evento de scroll para activar el audio
+    window.addEventListener("click", handlePlay);
+
+    // Limpiar el evento cuando el componente se desmonte
+    return () => window.removeEventListener("click", handlePlay);
+  }, []);
   return (
-    <div className="flex flex-col gap-2   overflow-hidden">
+    <div className="flex flex-col gap-2 overflow-hidden ">
       <img
         src="/images/vecteezy_botanic-illustration_36647509.svg"
         className="absolute absolute-img w-[120px] md:w-[150px] opacity-45 -left-12 top-30 object-cover invert"
@@ -21,6 +39,15 @@ function App() {
             "Pero, además de todo esto, vístanse de amor, porque es un lazo de unión perfecto." Colosenses 3:14
           </p>
           <p className="text-lg sm:text-xl md:text-2xl text-center">Nuestra boda</p>
+
+          <audio
+            ref={musicRef}
+            src="\images\audio\How Deep Is Your Love.m4a"
+            loop
+            autoplay
+            muted
+          ></audio>
+
         </div>
 
         <img
