@@ -43,7 +43,7 @@ function App() {
           <audio
             ref={musicRef}
             src="\images\audio\How Deep Is Your Love.m4a"
-            className="opacity-40"
+            className="opacity-40 mt-4"
             loop
             autoplay
             controls
