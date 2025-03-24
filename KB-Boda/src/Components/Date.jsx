@@ -32,7 +32,7 @@ export default function Date() {
                 </div>
                 <div className="col-start-2 row-start-2 flex flex-col items-center relative">
                     <p className="text-3xl sm:text-4xl md:text-5xl w-[100px] text-center text-[#595959]">Mayo</p>
-                    <p className="text-6xl sm:text-8xl md:text-9xl top-6 absolute text-[#595959]">12</p>
+                    <p className="text-6xl sm:text-8xl md:text-9xl top-6 absolute text-[#595959]">24</p>
                 </div>
                 <div className="row-start-2 w-full">
                     <hr className="flex-1 border-t-2 border-[#E8D28A] mx-2" />
