@@ -26,7 +26,6 @@ export default function Location() {
                 >
                     Ver ubicación
                 </a>
-
                 <img
                     src="\images\ImagenCompromiso.jpg"
                     className="w-full max-w-[400px] z-10 shadow-xl opacity-90 brightness-95"
