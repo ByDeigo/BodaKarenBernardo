@@ -1,6 +1,6 @@
 export default function Location() {
     return (
-        <section className="w-full flex flex-col items-center box-border mt-8 ">
+        <section  className="w-full flex flex-col items-center box-border mt-8 ">
             <div className="text-center flex gap-8 pt-2">
                 <div className="flex flex-col gap-2">
                     <p className="text-3xl sm:text-3xl md:text-4xl text-[#D88D77] font-bold">Ceremonia</p>
