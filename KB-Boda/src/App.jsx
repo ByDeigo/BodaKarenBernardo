@@ -45,7 +45,7 @@ function App() {
             src="\images\audio\How Deep Is Your Love.m4a"
             className="opacity-40 mt-4"
             loop
-            autoplay
+            autoPlay
             controls
           ></audio>
 
@@ -57,8 +57,8 @@ function App() {
         />
 
         <img
-          src="/images/vecteezy_botanic-illustration_36647509.svg"
-          className="absolute absolute-img w-[160px] md:w-[200px] lg:w-[20vw] rotate-y-180 right-[-80px] sm:right-0 translate-x-1/4 top-30 -z-10 clip-path-inset opacity-45 invert"
+          src="/images/Tulipan.png"
+          className="absolute absolute-img w-[200px] md:w-[250px] lg:w-[20vw] rotate-y-180 right-[-80px] sm:right-0 translate-x-1/4 top-30 -z-10 clip-path-inset opacity-80"
         />
       </main>
       <div className="w-full overflow-hidden">

@@ -62,16 +62,16 @@ export default function Contact() {
             </div>
 
             <img
-                src="\images\vecteezy_swirl-flower_36639908.svg"
-                className="absolute left-[-30px] bottom-[-20px] w-[100px] lg:w-[200px] -z-10 opacity-15 max-w-full max-h-screen object-contain invert"
+                src="\images\HorizontalRose.png"
+                className="absolute left-[-30px] bottom-[-20px] w-[150px] lg:w-[250px] -z-10 opacity-80 max-w-full max-h-screen object-contain"
             />
             <p className="text-2xl sm:text-3xl md:text-4xl">Gracias por ser parte de nuestro gran día.</p>
             <p className="tangerine-regular text-8xl  text-[#d8b434]">¡Te esperamos!</p>
 
 
             <img
-                src="\images\vecteezy_swirl-flower_36639908.svg"
-                className="absolute right-[-30px] bottom-[-150px] w-[100px] lg:w-[200px] rotate-y-180 -z-10 opacity-15 max-w-full max-h-screen object-contain invert"
+                src="\images\LateralRose.png"
+                className="absolute right-[-30px] bottom-[-150px] w-[150px] lg:w-[200px] rotate-y-180 -z-10 opacity-40 max-w-full max-h-screen object-contain"
             />
         </div>
     );

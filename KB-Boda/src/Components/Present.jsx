@@ -6,8 +6,8 @@ export default function Present() {
                 className="absolute w-[80px] right-[-30px] lg:right-[-30px] md:w-[120px] bottom-[180px] rotate-y-180 -z-10 max-w-full max-h-screen object-contain invert opacity-30"
             />
             <img
-                src="\images\vecteezy_botanic-illustration_36647509.svg"
-                className="absolute left-[-20px] lg:left-[-60px] bottom-[-20px] w-[80px] md:w-[100px] lg:w-[200px] max-w-full max-h-screen object-contain invert opacity-30"
+                src="\images\LateralRose.png"
+                className="absolute left-[-20px] lg:left-[-60px] bottom-[-20px] w-[100px] md:w-[150px] lg:w-[250px] max-w-full max-h-screen object-contain opacity-80"
             />
             <header className="flex flex-col w-full max-w-[600px] text-center gap-2">
                 <div className="flex items-center justify-center">
