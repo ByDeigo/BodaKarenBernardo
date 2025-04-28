@@ -5,8 +5,8 @@ export default function Date() {
                 Nosotros
             </p>
             <img
-                src="\images\vecteezy_flower-and-foliage_36642398.svg"
-                className="opacity-15 left-[-2rem] md:left-[-10rem] absolute size-44 hidden md:block lg:size-96 max-w-full max-h-screen object-contain invert"
+                src="\images\VerticalRose2.png"
+                className="opacity-60 left-[-2rem] md:left-[-10rem] absolute size-44 hidden md:block lg:size-96 max-w-full max-h-screen object-contain "
             />
 
             <div className="grid grid-cols-[1fr_40px_1fr] grid-rows-3 justify-items-center w-[80%] max-w-[500px] p-5 box-border relative">

@@ -34,13 +34,13 @@ export default function Contact() {
                 </a>
 
                 <img
-                    src="\images\vecteezy_flower-exotic_36648068.svg"
-                    className="-z-10 opacity-25 absolute top-[150px] w-[100px] md:w-[200px] left-[-20px] md:left-[-80px] rotate-y-180 max-w-full max-h-screen object-contain invert"
+                    src="\images\Tulipan.png"
+                    className="-z-10 opacity-60 absolute top-[150px] w-[100px] md:w-[200px] left-[-30px] md:left-[-90px] rotate-y-180 max-w-full max-h-screen object-contain"
                 />
 
                 <img
-                    src="\images\vecteezy_flower-exotic_36648068.svg"
-                    className="-z-10 opacity-25 absolute w-[100px] md:w-[200px] right-[-20px] top-[230px] md:right-[-80px] max-w-full max-h-screen object-contain invert"
+                    src="\images\VerticalRose2.png"
+                    className="-z-10 opacity-60 absolute w-[200px] md:w-[280px] right-[-80px] top-[230px] md:right-[-80px] max-w-full max-h-screen object-contain "
                 />
 
                 <div className="flex flex-col justify-center items-center gap-2.5">
